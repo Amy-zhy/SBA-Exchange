@@ -1,9 +1,9 @@
-package com.smc.sba.controller;
+package com.fsd.sba.controller;
 
 
-import com.smc.sba.entity.StockExchangeEntity;
-import com.smc.sba.service.ExchangeService;
-import com.smc.sba.utils.CommonResult;
+import com.fsd.sba.entity.StockExchangeEntity;
+import com.fsd.sba.service.ExchangeService;
+import com.fsd.sba.utils.CommonResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

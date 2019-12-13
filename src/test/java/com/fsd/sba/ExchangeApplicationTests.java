@@ -1,11 +1,16 @@
-package com.smc.sba;
+package com.fsd.sba;
 
-import com.smc.sba.entity.StockExchangeEntity;
-import com.smc.sba.service.ExchangeService;
-import org.junit.jupiter.api.Test;
+import com.fsd.sba.entity.StockExchangeEntity;
+import com.fsd.sba.service.ExchangeService;
+// import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.junit4.SpringRunner;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+@RunWith(SpringRunner.class)
 @SpringBootTest
 class ExchangeApplicationTests {
 
