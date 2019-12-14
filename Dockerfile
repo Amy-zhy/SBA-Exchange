@@ -1,0 +1,5 @@
+FROM java:8
+ENV PROJECT_ARTIFACTID="exchange" PROJECT_VERSION="0.0.1-SNAPSHOT"
+COPY target/$PROJECT_ARTIFACTID-$PROJECT_VERSION.jar /exchange.jar
+EXPOSE 8082
+ENTRYPOINT ["java", "-jar", "exchange.jar"]
