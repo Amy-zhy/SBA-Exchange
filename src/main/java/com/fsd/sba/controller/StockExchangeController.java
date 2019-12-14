@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/exchange")
+@RequestMapping("/admin/manage/exchange")
 public class StockExchangeController {
 
 	@Autowired
